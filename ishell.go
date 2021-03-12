@@ -1,4 +1,5 @@
 // Package ishell implements an interactive shell.
+
 package ishell
 
 import (
@@ -20,7 +21,7 @@ import (
 
 	"github.com/abiosoft/readline"
 	"github.com/fatih/color"
-	shlex "github.com/flynn-archive/go-shlex"
+	"github.com/google/shlex"
 )
 
 const (
